@@ -51,16 +51,10 @@ The repository includes `.github/workflows/pages.yml`. It deploys the `portfolio
 
 ## CV links
 
-The portfolio links to Markdown CVs in the parent repository:
+GitHub Pages deploys only the `portfolio/` folder, so CV files are not available at relative paths. Links in `index.html` point to the Markdown files on GitHub:
 
-- `../cv/luca-muroni-cv.it.md`
-- `../cv/luca-muroni-cv.en.md`
-
-On GitHub Pages these resolve relative to the site root. If CV links break, update paths in `index.html` to absolute GitHub URLs:
-
-```
-https://github.com/l-muroni/l-muroni/blob/main/cv/luca-muroni-cv.en.md
-```
+- https://github.com/l-muroni/l-muroni/blob/main/cv/luca-muroni-cv.it.md
+- https://github.com/l-muroni/l-muroni/blob/main/cv/luca-muroni-cv.en.md
 
 ## Update content
 

@@ -1,6 +1,6 @@
 # Luca Muroni
 
-![Profile](https://img.shields.io/badge/Profile-GitHub-181717?style=flat-square&logo=github)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Luca%20Muroni-0a66c2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/luca-muroni-612b9a1a8/)
 ![Location](https://img.shields.io/badge/Location-Parma%2C%20Italy-555?style=flat-square)
 ![Role](https://img.shields.io/badge/Role-Full%20Stack%20Engineer-555?style=flat-square)
 
@@ -99,7 +99,7 @@ Selected areas of professional activity (details available on request):
 |---|---|
 | Email | [muroniluca13@gmail.com](mailto:muroniluca13@gmail.com) |
 | GitHub | [github.com/l-muroni](https://github.com/l-muroni) |
-| LinkedIn | `<linkedin-url>` |
+| LinkedIn | [linkedin.com/in/luca-muroni-612b9a1a8](https://www.linkedin.com/in/luca-muroni-612b9a1a8/) |
 | Location | Salsomaggiore Terme, Parma, Italy |
 
 ---

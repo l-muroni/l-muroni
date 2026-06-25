@@ -4,7 +4,7 @@
 
 Via Patrioti 11, 43039 Salsomaggiore Terme (PR)  
 muroniluca13@gmail.com · +39 340 5777232  
-GitHub: github.com/l-muroni · LinkedIn: `<linkedin-url>`
+GitHub: github.com/l-muroni · LinkedIn: linkedin.com/in/luca-muroni-612b9a1a8
 
 ---
 

@@ -1,110 +1,113 @@
 # Luca Muroni
 
-**Full Stack Software Engineer**  
-Microservices · SaaS · Linux · DevOps · IoT · AI Integration
+![Profile](https://img.shields.io/badge/Profile-GitHub-181717?style=flat-square&logo=github)
+![Location](https://img.shields.io/badge/Location-Parma%2C%20Italy-555?style=flat-square)
+![Role](https://img.shields.io/badge/Role-Full%20Stack%20Engineer-555?style=flat-square)
 
-I design and develop full stack web applications, reusable SaaS architectures, IoT/VoIP integrations and Linux-based deployment environments.
-
-Currently working as **Full Stack Software Engineer at First Point S.p.A.**, where I follow software projects end-to-end: requirements, technical analysis, development, deployment, infrastructure configuration and coordination with internal and external stakeholders.
-
----
-
-## Core areas
-
-- Full stack web development
-- SaaS multi-tenant applications
-- Microservice architectures
-- Backend APIs and asynchronous workers
-- Linux server administration
-- Docker-based deployments
-- Nginx reverse proxy configuration
-- IoT and VoIP system integration
-- Local AI server and API integration
-- Observability, structured logging and audit trail
+**Software Engineer | Architecture | DevOps | AI | IoT**
 
 ---
 
-## Tech stack
+## About
 
-### Backend
-
-TypeScript · Node.js · NestJS · REST API · WebSocket · Socket.io · RabbitMQ · TypeORM · Swagger/OpenAPI
-
-### Frontend
-
-SolidJS · Vite · JavaScript · HTML · CSS/SCSS · UI component architecture
-
-### Database
-
-PostgreSQL · TypeORM migrations · multi-tenant data model · soft delete · audit log
-
-### DevOps & infrastructure
-
-Linux · Docker · Docker Compose · Nginx · Git · GitHub · autodeploy · VM management · Makefile · direnv
-
-### Observability
-
-Grafana · Loki · Fluent Bit · structured JSON logging · health checks · dashboards · LogQL
-
-### AI / ML
-
-Local AI server · AI API integration · TensorFlow · Keras · PyTorch · Scikit-learn · Pandas · NumPy
-
-### IoT / integrations
-
-IoT devices · custom connectors · VoIP PBX integration · distributed systems · service-to-service communication
-
----
-
-## Featured project
-
-### Foundation Platform
-
-Reusable architectural template for multi-tenant SaaS management applications.
-
-The platform is designed as a reusable foundation for new projects, with a removable demo domain and a production-oriented infrastructure skeleton.
-
-Key features:
-
-- SolidJS + Vite frontend
-- NestJS HTTP API
-- NestJS standalone worker
-- RabbitMQ queues and async processing
-- Socket.io realtime updates
-- PostgreSQL 16 with TypeORM migrations
-- application-level multi-tenancy with `tenant_id`
-- soft delete and automatic audit trail
-- structured JSON logging
-- Fluent Bit + Loki + Grafana observability stack
-- Docker Compose orchestration
-- Nginx reverse proxy
-- Zod-based environment validation
-- liveness/readiness health checks
-- Swagger/OpenAPI documentation
-- Jest/Vitest test suite
-- secrets stored outside the repository
-- Conventional Commits, ESLint strict and pre-commit checks
+Software engineer with a background in electronics and telecommunications engineering. I design and deliver full stack applications, distributed architectures, and Linux-based deployment environments. I work across development, infrastructure, and technical coordination — from requirements analysis to production delivery.
 
 ---
 
 ## Current role
 
-### First Point S.p.A. — Full Stack Software Engineer
+**Full Stack Software Engineer** — First Point S.p.A., Fidenza  
+*July 2024 – Present*
 
-**July 2024 – Present**
+End-to-end ownership of software projects: requirements gathering, technical analysis, full stack development, deployment, infrastructure configuration, and coordination with internal teams and external stakeholders.
 
-- Design and development of full stack web applications.
-- Technical coordination with external clients and internal departments.
-- Requirements analysis, project tracking and delivery alignment.
-- Development of microservice-based SaaS applications.
-- Linux VM management, Nginx routing and Docker deployments.
-- Integration of IoT devices and VoIP PBX systems.
-- Management of an internal AI server exposing local APIs for application projects.
-- Implementation of logging, observability, health checks and audit trail.
+---
+
+## Core competencies
+
+- Full stack web development
+- Software architecture and microservices
+- Requirements analysis and technical delivery
+- Linux server administration
+- Docker-based deployments and autodeploy pipelines
+- Nginx reverse proxy configuration
+- IoT and VoIP system integration
+- AI API integration
+- Observability and structured logging
+- Stakeholder and client coordination
+
+---
+
+## Technical stack
+
+### Languages
+
+TypeScript · JavaScript · Python · Java · C · C++
+
+### Backend
+
+Node.js · NestJS · REST API · WebSocket · Socket.io · RabbitMQ · TypeORM
+
+### Frontend
+
+SolidJS · Vite · HTML · CSS
+
+### Database & messaging
+
+PostgreSQL · TypeORM · RabbitMQ · Socket.io
+
+### DevOps & infrastructure
+
+Linux · Docker · Docker Compose · Nginx · Git · GitHub · autodeploy
+
+### Observability
+
+Grafana · Loki · Fluent Bit · structured logging · health checks
+
+### AI / ML
+
+TensorFlow · Keras · PyTorch · Scikit-learn · Pandas · NumPy · AI API integration
+
+### IoT & integrations
+
+IoT devices · custom connectors · VoIP PBX integration · distributed systems
+
+---
+
+## Professional focus
+
+I combine hands-on engineering with project coordination. Comfortable leading technical delivery, aligning stakeholders on requirements, and bridging development with operations — suitable for both individual contributor and technical lead roles.
+
+---
+
+## Featured work
+
+Selected areas of professional activity (details available on request):
+
+- **Full stack SaaS applications** — microservice-based web platforms with async processing and real-time updates
+- **Infrastructure & DevOps** — Linux environments, containerized deployments, reverse proxy routing, automated release workflows
+- **Observability** — centralized logging, monitoring dashboards, health checks
+- **IoT & VoIP integration** — device connectivity, protocol bridging, telephony system integration
+- **AI integration** — local AI server management and API consumption in application contexts
+- **Thesis project** — computer vision system for personal protective equipment recognition using machine learning
 
 ---
 
 ## Contacts
 
-- Email: `muroniluca13@gmail.com`
-- Location: Salsomaggiore Terme, Parma, Italy
+| | |
+|---|---|
+| Email | [muroniluca13@gmail.com](mailto:muroniluca13@gmail.com) |
+| GitHub | [github.com/l-muroni](https://github.com/l-muroni) |
+| LinkedIn | `<linkedin-url>` |
+| Location | Salsomaggiore Terme, Parma, Italy |
+
+---
+
+## Repository
+
+This repository serves as my professional GitHub profile hub: CV, portfolio, and related assets.
+
+- [CV (Italian)](cv/luca-muroni-cv.it.md)
+- [CV (English)](cv/luca-muroni-cv.en.md)
+- [Portfolio](portfolio/)

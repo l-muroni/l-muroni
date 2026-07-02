@@ -228,15 +228,20 @@ function renderHtml(config, doc) {
 
   <article class="cv-page">
     <header class="cv-header">
-      <h1 class="cv-name">${escapeHtml(doc.name)}</h1>
-      <p class="cv-role">${escapeHtml(doc.role)}</p>
-      <p class="cv-contacts">
-        ${escapeHtml(config.locationLine)}<br>
-        <a href="mailto:muroniluca13@gmail.com">muroniluca13@gmail.com</a> ·
-        <a href="tel:+393405777232">+39 340 5777232</a><br>
-        GitHub: <a href="https://github.com/l-muroni">github.com/l-muroni</a> ·
-        LinkedIn: <a href="https://www.linkedin.com/in/luca-muroni-612b9a1a8/">linkedin.com/in/luca-muroni-612b9a1a8</a>
-      </p>
+      <div class="cv-header-main">
+        <div class="cv-header-text">
+          <h1 class="cv-name">${escapeHtml(doc.name)}</h1>
+          <p class="cv-role">${escapeHtml(doc.role)}</p>
+          <p class="cv-contacts">
+            ${escapeHtml(config.locationLine)}<br>
+            <a href="mailto:muroniluca13@gmail.com">muroniluca13@gmail.com</a> ·
+            <a href="tel:+393405777232">+39 340 5777232</a><br>
+            GitHub: <a href="https://github.com/l-muroni">github.com/l-muroni</a> ·
+            LinkedIn: <a href="https://www.linkedin.com/in/luca-muroni-612b9a1a8/">linkedin.com/in/luca-muroni-612b9a1a8</a>
+          </p>
+        </div>
+        <img class="cv-photo" src="../assets/luca-muroni-cv.jpg" alt="${escapeHtml(doc.name)}" width="88" height="88">
+      </div>
     </header>
 ${bodySections}
     ${footer}

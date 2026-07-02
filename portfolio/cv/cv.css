@@ -33,6 +33,12 @@ body {
   background: #e8e8e8;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #2a2a2a;
+  }
+}
+
 /* Toolbar (hidden on print) */
 .cv-toolbar {
   position: sticky;
@@ -91,6 +97,28 @@ body {
   margin-bottom: 1.25rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid var(--accent);
+}
+
+.cv-header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cv-header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-photo {
+  width: 22mm;
+  height: 22mm;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: top center;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
 .cv-name {
@@ -249,7 +277,7 @@ body {
   line-height: 1.4;
 }
 
-/* Print */
+/* Print & PDF — always desktop layout */
 @media print {
   html {
     font-size: 11px;
@@ -271,6 +299,30 @@ body {
     box-shadow: none;
   }
 
+  .cv-header-main {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .cv-photo {
+    width: 22mm;
+    height: 22mm;
+  }
+
+  .cv-entry-header {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .cv-skill-row {
+    flex-direction: row;
+  }
+
+  .cv-skill-label {
+    flex: 0 0 9rem;
+  }
+
   .cv-section {
     break-inside: avoid;
   }
@@ -285,7 +337,8 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+/* Mobile screen only — does not affect print/PDF */
+@media screen and (max-width: 800px) {
   .cv-page {
     width: 100%;
     margin: 0;
@@ -305,5 +358,16 @@ body {
 
   .cv-skill-label {
     flex: none;
+  }
+
+  .cv-header-main {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cv-photo {
+    width: 5.5rem;
+    height: 5.5rem;
   }
 }

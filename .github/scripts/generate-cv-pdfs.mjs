@@ -11,6 +11,11 @@ const portfolioDir = join(__dirname, '../../portfolio');
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.webp': 'image/webp',
+  '.png': 'image/png',
+  '.svg': 'image/svg+xml',
 };
 
 const pages = [
@@ -42,7 +47,7 @@ function startServer(root) {
   });
 }
 
-const { server, port } = await startServer(cvDir);
+const { server, port } = await startServer(portfolioDir);
 const browser = await puppeteer.launch({
   headless: true,
   args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -52,7 +57,9 @@ const browser = await puppeteer.launch({
 try {
   for (const { html, pdf } of pages) {
     const page = await browser.newPage();
-    await page.goto(`http://127.0.0.1:${port}/${html}`, { waitUntil: 'networkidle0' });
+    await page.setViewport({ width: 1200, height: 1600, deviceScaleFactor: 1 });
+    await page.emulateMediaType('print');
+    await page.goto(`http://127.0.0.1:${port}/cv/${html}`, { waitUntil: 'networkidle0' });
     await page.pdf({
       path: join(cvDir, pdf),
       format: 'A4',

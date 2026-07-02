@@ -1,0 +1,309 @@
+/* ==========================================================================
+   Luca Muroni — CV (A4, print-ready)
+   ========================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --bg-subtle: #f8f9fa;
+  --text: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #6b6b6b;
+  --accent: #2563eb;
+  --border: #e5e5e5;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-mono: "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 11px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: #e8e8e8;
+}
+
+/* Toolbar (hidden on print) */
+.cv-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.cv-toolbar a,
+.cv-toolbar button {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #444;
+  background: transparent;
+  color: #ededed;
+  transition: background 150ms ease;
+}
+
+.cv-toolbar a:hover,
+.cv-toolbar button:hover {
+  background: #333;
+}
+
+.cv-toolbar .btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.cv-toolbar .btn-primary:hover {
+  background: #1d4ed8;
+}
+
+/* A4 page */
+.cv-page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 2rem auto;
+  padding: 20mm 18mm;
+  background: var(--bg);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Header */
+.cv-header {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+.cv-name {
+  margin: 0 0 0.25rem;
+  font-size: 2.55rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cv-role {
+  margin: 0 0 0.75rem;
+  font-size: 1.27rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.cv-contacts {
+  margin: 0;
+  font-size: 0.91rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.cv-contacts a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Sections */
+.cv-section {
+  margin-bottom: 1.25rem;
+}
+
+.cv-section-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.27rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cv-profile {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* Experience entries */
+.cv-entry {
+  margin-bottom: 1rem;
+}
+
+.cv-entry:last-child {
+  margin-bottom: 0;
+}
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.cv-entry-title {
+  margin: 0;
+  font-size: 1.09rem;
+  font-weight: 600;
+}
+
+.cv-entry-date {
+  font-family: var(--font-mono);
+  font-size: 0.91rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.cv-entry-subtitle {
+  margin: 0 0 0.35rem;
+  font-size: 0.91rem;
+  color: var(--text-secondary);
+}
+
+.cv-entry ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.cv-entry li {
+  margin-bottom: 0.2rem;
+  color: var(--text-secondary);
+}
+
+/* Skills */
+.cv-skills {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.cv-skill-row {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.91rem;
+  line-height: 1.45;
+}
+
+.cv-skill-label {
+  flex: 0 0 9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.cv-skill-value {
+  color: var(--text-secondary);
+}
+
+/* Languages table */
+.cv-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.91rem;
+}
+
+.cv-table th,
+.cv-table td {
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.cv-table th {
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.cv-table td {
+  color: var(--text-secondary);
+}
+
+/* Footer note */
+.cv-footer {
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Print */
+@media print {
+  html {
+    font-size: 11px;
+  }
+
+  body {
+    background: var(--bg);
+  }
+
+  .cv-toolbar {
+    display: none !important;
+  }
+
+  .cv-page {
+    width: auto;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .cv-section {
+    break-inside: avoid;
+  }
+
+  .cv-entry {
+    break-inside: avoid;
+  }
+
+  a {
+    color: var(--text-secondary);
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .cv-page {
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+    box-shadow: none;
+  }
+
+  .cv-entry-header {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .cv-skill-row {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .cv-skill-label {
+    flex: none;
+  }
+}

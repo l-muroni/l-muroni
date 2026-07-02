@@ -102,4 +102,9 @@ I.I.S.S. A. Berenini, Fidenza, Italy
 |----------|-------|
 | Italian | Native |
 | English | B1 |
-| French | A2 |
+
+---
+
+## Data processing consent
+
+I authorize the processing of personal data contained in this curriculum vitae in accordance with Regulation (EU) 2016/679 (GDPR).

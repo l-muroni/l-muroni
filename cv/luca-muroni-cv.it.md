@@ -102,7 +102,6 @@ I.I.S.S. A. Berenini, Fidenza (PR)
 |--------|---------|
 | Italiano | Madrelingua |
 | Inglese | B1 |
-| Francese | A2 |
 
 ---
 

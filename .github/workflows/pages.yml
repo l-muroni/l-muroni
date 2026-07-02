@@ -6,7 +6,9 @@ on:
       - main
     paths:
       - 'portfolio/**'
+      - 'cv/**'
       - '.github/workflows/pages.yml'
+      - '.github/scripts/**'
   workflow_dispatch:
 
 permissions:
@@ -31,6 +33,20 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Sync CV HTML from Markdown
+        run: node .github/scripts/sync-cv-from-md.mjs
+
+      - name: Generate CV PDFs
+        run: |
+          npm install puppeteer@24
+          npx puppeteer browsers install chrome
+          node .github/scripts/generate-cv-pdfs.mjs
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

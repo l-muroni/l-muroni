@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://l-muroni.github.io/l-muroni/sitemap.xml

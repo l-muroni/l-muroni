@@ -476,6 +476,60 @@ main {
   color: var(--accent);
 }
 
+/* Legal / privacy */
+.legal-back {
+  margin-left: auto;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.legal-back:hover,
+.legal-back:focus-visible {
+  color: var(--accent);
+}
+
+.legal-page {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-lg);
+}
+
+.legal-page h1 {
+  margin: 0 0 var(--space-sm);
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.legal-updated {
+  margin: 0 0 var(--space-xl);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.legal-page section {
+  margin-bottom: var(--space-xl);
+}
+
+.legal-page h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: 1.125rem;
+}
+
+.legal-page p {
+  margin: 0 0 var(--space-md);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.legal-page p:last-child {
+  margin-bottom: 0;
+}
+
+.legal-page a {
+  color: var(--accent);
+}
+
 /* Contact */
 .contact-block p {
   color: var(--text-secondary);

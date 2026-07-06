@@ -99,7 +99,7 @@ Selected areas of professional activity (details available on request):
 |---|---|
 | Email | [muroniluca13@gmail.com](mailto:muroniluca13@gmail.com) |
 | GitHub | [github.com/l-muroni](https://github.com/l-muroni) |
-| LinkedIn | [linkedin.com/in/luca-muroni-612b9a1a8](https://www.linkedin.com/in/luca-muroni-612b9a1a8/) |
+| LinkedIn | [linkedin.com/in/luca-muroni-612b9a1a8](https://www.linkedin.com/in/luca-muroni) |
 | Location | Salsomaggiore Terme, Parma, Italy |
 
 ---

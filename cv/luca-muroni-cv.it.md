@@ -1,6 +1,6 @@
 # Luca Muroni
 
-**Full Stack Software Engineer**
+**Software Engineer | R&D Full Stack**
 
 Via Patrioti 11, 43039 Salsomaggiore Terme (PR)  
 muroniluca13@gmail.com · +39 340 5777232  
@@ -10,45 +10,45 @@ GitHub: github.com/l-muroni · LinkedIn: linkedin.com/in/luca-muroni-612b9a1a8
 
 ## Profilo professionale
 
-Ingegnere informatico con esperienza nello sviluppo full stack, nell'architettura software e nella gestione di infrastrutture Linux. Seguo progetti end-to-end: analisi requisiti, sviluppo, deployment, integrazione IoT/VoIP e coordinamento con stakeholder interni ed esterni. Background in elettronica, automazione e machine learning.
+Software engineer in R&D. Progetto applicazioni distribuite, le integro con sistemi esterni e le porto in produzione, con attenzione a rilascio, sicurezza applicativa e continuità operativa. Laureato in ingegneria informatica, elettronica e delle telecomunicazioni.
 
 ---
 
 ## Esperienza professionale
 
-### Full Stack Software Engineer — First Point S.p.A., Fidenza
+### Software Engineer | R&D Full Stack — First Point S.p.A., Fidenza
 
 *Luglio 2024 – Presente*
 
-- Progettazione e sviluppo di applicazioni web full stack.
-- Coordinamento tecnico con clienti esterni e reparti interni.
-- Analisi requisiti, tracciamento progetto e allineamento delivery.
-- Sviluppo di applicazioni SaaS basate su architetture a microservizi.
-- Gestione ambienti Linux, routing Nginx e deployment Docker.
-- Integrazione di dispositivi IoT e sistemi VoIP/PBX.
-- Gestione di server AI interni con esposizione API per progetti applicativi.
-- Implementazione di logging strutturato, osservabilità e health check.
+- Progettazione di architetture a microservizi, da PostgreSQL e TypeORM al frontend.
+- Sviluppo backend e frontend di applicazioni web, API e componenti applicativi.
+- Reverse proxy Nginx, certificati, instradamento e pubblicazione dei servizi.
+- Pipeline di auto-deploy, ambienti di staging e produzione, procedure di rilascio.
+- Worker asincroni, code di elaborazione e integrazioni con servizi esterni.
+- Integrazione con sistemi VoIP/PBX, webhook, servizi cloud e infrastrutture aziendali.
+- Logging applicativo, monitoraggio, alerting e tracciabilità degli eventi.
+- Controlli di sicurezza applicativa: validazione input, protezioni anti-injection e gestione sicura degli allegati.
+- Requisiti tecnici, valutazione delle soluzioni architetturali e coordinamento operativo della delivery.
+- Manutenzione correttiva ed evolutiva, con attenzione ad affidabilità, scalabilità e continuità.
 
-### Tirocinio curriculare — Techcab S.r.l., Casale (PR)
+### Computer Vision Engineer (Tirocinio) — Techcab S.r.l., Parma
 
 *Gennaio 2021 – Luglio 2021*
 
-- Sviluppo di un sistema di riconoscimento biometrico dell'identità e del corretto utilizzo dei DPI.
-- Impiego di tecniche di intelligenza artificiale e machine learning.
+- Sistema di controllo accessi per il progetto Cobotech, basato su computer vision e RFID, con braccio robotico antropomorfo e telecamera stereoscopica.
+- Riconoscimento in tempo reale dei DPI (casco, pettorina, guanti, scarpe antinfortunistiche), con validazione tramite QR personale e controllo RFID ridondante.
+- Dataset di circa 4.000 immagini, ampliato a circa 10.000 campioni; classificatori binari indipendenti con transfer learning su EfficientNetB3.
+- Soglia di riconoscimento in produzione al 90%, con affidabilità tra l'86% e il 99% sui modelli di casco, pettorina e scarpe.
 - Area: engineering e progettazione (960 ore).
 
----
-
-## Esperienze formative
-
-### Tirocinio — ACMI, Fornovo di Taro (PR)
+### Elettricista industriale, cablaggio e sensoristica — ACMI S.p.A., Fornovo di Taro (PR)
 
 *Novembre 2017 – Gennaio 2018*
 
 - Cablaggio a bordo macchina, montaggio sensoristica e supporto al collaudo.
 - Supporto agli elettricisti e analisi documentazione tecnica (320 ore).
 
-### Tirocinio — CFT Group, Parma (PR)
+### Junior Engineer, test e automazione — CFT Group, Parma
 
 *Febbraio 2017 – Aprile 2017*
 
@@ -84,15 +84,15 @@ I.I.S.S. A. Berenini, Fidenza (PR)
 
 **Database:** PostgreSQL, TypeORM
 
-**DevOps & infrastruttura:** Linux, Docker, Docker Compose, Nginx, Git, GitHub, autodeploy
+**DevOps & infrastruttura:** Linux, Docker, Docker Compose, Nginx, Git, GitHub, Vault, autodeploy
 
 **Osservabilità:** Grafana, Loki, Fluent Bit, logging strutturato, health check
 
 **AI / ML:** TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, integrazione API AI
 
-**Integrazioni:** IoT, connettori custom, VoIP/PBX, sistemi distribuiti
+**Integrazioni:** VoIP/PBX, webhook, IoT, system integration, sistemi distribuiti
 
-**Metodologie:** Analisi requisiti, delivery tecnico, coordinamento stakeholder
+**Metodologie:** Requisiti tecnici, valutazione architetturale, coordinamento delivery, sicurezza applicativa
 
 ---
 

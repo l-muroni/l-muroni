@@ -1,6 +1,6 @@
 # Luca Muroni
 
-**Full Stack Software Engineer**
+**Software Engineer | R&D Full Stack**
 
 Via Patrioti 11, 43039 Salsomaggiore Terme, Italy  
 muroniluca13@gmail.com · +39 340 5777232  
@@ -10,49 +10,49 @@ GitHub: github.com/l-muroni · LinkedIn: linkedin.com/in/luca-muroni-612b9a1a8
 
 ## Professional profile
 
-Software engineer with experience in full stack development, software architecture, and Linux infrastructure management. I lead projects end-to-end: requirements analysis, development, deployment, IoT/VoIP integration, and coordination with internal and external stakeholders. Background in electronics, automation, and machine learning.
+Software engineer in R&D. I design distributed applications, integrate external systems, and take them to production with attention to release, application security, and operational reliability. Graduated in computer, electronic and telecommunications engineering.
 
 ---
 
 ## Professional experience
 
-### Full Stack Software Engineer — First Point S.p.A., Fidenza, Italy
+### Software Engineer | R&D Full Stack — First Point S.p.A., Fidenza, Italy
 
 *July 2024 – Present*
 
-- Design and development of full stack web applications.
-- Technical coordination with external clients and internal departments.
-- Requirements analysis, project tracking, and delivery alignment.
-- Development of microservice-based SaaS applications.
-- Linux environment management, Nginx routing, and Docker deployments.
-- Integration of IoT devices and VoIP/PBX systems.
-- Management of internal AI servers exposing APIs for application projects.
-- Implementation of structured logging, observability, and health checks.
+- Design of microservice architectures, from PostgreSQL and TypeORM to the frontend.
+- Backend and frontend development of web applications, APIs, and application components.
+- Nginx reverse proxy, certificates, routing, and service publishing.
+- Autodeploy pipelines, staging and production environments, and release procedures.
+- Async workers, processing queues, and integrations with external services.
+- Integration with VoIP/PBX, webhooks, cloud services, and company infrastructure.
+- Application logging, monitoring, alerting, and event traceability.
+- Application security controls: input validation, injection protection, and safe attachment handling.
+- Technical requirements, architecture evaluation, and operational coordination of delivery.
+- Corrective and evolutionary maintenance, with attention to reliability, scalability, and continuity.
 
-### Curricular internship — Techcab S.r.l., Casale, Italy
+### Computer Vision Engineer (Internship) — Techcab S.r.l., Parma, Italy
 
 *January 2021 – July 2021*
 
-- Development of a biometric identity recognition system and PPE compliance detection.
-- Application of artificial intelligence and machine learning techniques.
+- Access-control system for the Cobotech project, based on computer vision and RFID, with an anthropomorphic robot and a stereoscopic camera.
+- Real-time PPE recognition (helmet, high-visibility vest, gloves, safety shoes), with personal QR validation and a redundant RFID check.
+- Dataset of about 4,000 images, expanded to about 10,000 samples; independent binary classifiers with EfficientNetB3 transfer learning.
+- Production recognition threshold of 90%, with 86–99% reliability on helmet, vest, and shoe models.
 - Area: engineering and design (960 hours).
 
----
-
-## Training experience
-
-### Internship — ACMI, Fornovo di Taro, Italy
+### Industrial Electrician — ACMI S.p.A., Fornovo di Taro, Italy
 
 *November 2017 – January 2018*
 
-- On-machine wiring, sensor installation, and commissioning support.
+- On-machine wiring, industrial sensor installation, and commissioning support.
 - Support to electricians and technical documentation analysis (320 hours).
 
-### Internship — CFT Group, Parma, Italy
+### Junior Engineer, Test and Automation — CFT Group, Parma, Italy
 
 *February 2017 – April 2017*
 
-- Bottling line improvement and software/hardware troubleshooting.
+- Bottling-line improvements and software/hardware troubleshooting.
 - Collaboration with engineering and electrical circuit development teams (640 hours).
 
 ---
@@ -84,15 +84,15 @@ I.I.S.S. A. Berenini, Fidenza, Italy
 
 **Database:** PostgreSQL, TypeORM
 
-**DevOps & infrastructure:** Linux, Docker, Docker Compose, Nginx, Git, GitHub, autodeploy
+**DevOps & infrastructure:** Linux, Docker, Docker Compose, Nginx, Git, GitHub, Vault, autodeploy
 
 **Observability:** Grafana, Loki, Fluent Bit, structured logging, health checks
 
 **AI / ML:** TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, AI API integration
 
-**Integrations:** IoT, custom connectors, VoIP/PBX, distributed systems
+**Integrations:** VoIP/PBX, webhooks, IoT, system integration, distributed systems
 
-**Practices:** Requirements analysis, technical delivery, stakeholder coordination
+**Practices:** Technical requirements, architecture evaluation, delivery coordination, application security
 
 ---
 

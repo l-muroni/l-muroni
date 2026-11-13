@@ -15,7 +15,9 @@
   <meta name="twitter:image" content="https://l-muroni.github.io/l-muroni/og-image.png">
   <link rel="canonical" href="https://l-muroni.github.io/l-muroni/">
   <title>Luca Muroni — Software Engineer</title>
+  <meta name="theme-color" content="#0a0a0a">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -383,6 +385,11 @@
       toggle.setAttribute('aria-expanded', !expanded);
       navLinks.classList.toggle('open');
     });
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
   </script>
   <script src="analytics.config.js"></script>
   <script src="analytics.js"></script>
